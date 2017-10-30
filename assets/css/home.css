@@ -1,0 +1,26 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+body{
+	/*background-color: red;*/
+}
+.container-fluid {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#mainPhoto{
+	max-height: 400px;
+	max-width: 500px;
+}
+#enterButton{
+	font-family: 'Megrim', cursive;
+	font-size: 3em;
+	color: black;
+}
+#enterButton:hover{
+	text-decoration: none;
+}
