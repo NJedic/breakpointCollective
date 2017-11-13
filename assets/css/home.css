@@ -1,0 +1,10 @@
+/*Jumbotron*/
+#header{
+	font-family: 'Megrim', cursive;
+	font-size: 3em;
+	letter-spacing: 30px;
+}
+.jumbotron{
+	background-color: white;
+	text-align: center;
+}
