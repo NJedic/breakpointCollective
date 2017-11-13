@@ -2,9 +2,7 @@ html {
   position: relative;
   min-height: 100%;
 }
-body{
-	/*background-color: red;*/
-}
+/*Centering conent on the page*/
 .container-fluid {
   position: absolute;
   left: 0;
@@ -12,22 +10,28 @@ body{
   top: 50%;
   transform: translateY(-50%);
 }
+/*Main Mobile Hanger Photo*/
 #mainPhoto{
 	max-height: 400px;
 	max-width: 500px;
 }
-/*Button & Link*/
+/*Button & Button Link*/
 #enterButton{
+	color: #454545;
+	max-height: 70px;
 	font-family: 'Megrim', cursive;
 	font-size: 3em;
 	text-decoration: none;
 }
 #enterLink{
-	color: black;
+	color: #454545;
 }
 #enterLink:hover{
-	color: black;
+	color: #454545;
 	text-decoration: none;
 }
-
+/*hr*/
+#enterHr{
+	background-color: #C8C6AF;
+}
 /*font-family: 'Wire One', sans-serif;*/
