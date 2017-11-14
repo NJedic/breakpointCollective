@@ -65,3 +65,16 @@ a:hover{
 	top: 50%;
 	transform: translateY(10%);
 }
+#shopRow{
+	padding-bottom: 60px;
+}
+
+/*Footer*/
+footer{
+	background-color: #E6E0D9;
+}
+#footerContent{
+	text-align: center;
+	font-family: 'Megrim', cursive;
+	color: #454545;
+}
