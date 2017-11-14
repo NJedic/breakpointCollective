@@ -10,26 +10,69 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 		<!-- Link to Google Fonts CDN -->
 		<link href="https://fonts.googleapis.com/css?family=Megrim|Wire+One" rel="stylesheet">
+		<!-- Link to Animate.CSS CDN -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+		<!-- Link to relative Delay.CSS for Animate.CSS support -->
+		<link rel="stylesheet" href="./assets/css/delay.css">
 		<!-- Link to Relative CSS -->
 		<link rel="stylesheet" href="./assets/css/home.css">
 	</head>
 	<body>
 		<div class="container-fluid">
+			<!-- Jumbotron -->
 			<div class="jumbotron">
-				<h1 id=header class=>BreakPoint Collective</h1>
-				<hr width="20%">
+				<h1 id="header" class=>BreakPoint Collective</h1>
+				<hr width=60% id="homeHr">
+				<h3 id="tagline">"gather at the point"</h3>
 			</div>
+
+			<!-- Images Row -->
 			<div class="row">
-				<div class="col-lg-4">
+				<div class="col-4">
 					<img class="img-fluid" src="./assets/images/IMG_5652.JPG">
 				</div>
-				<div class="col-lg-4">
+				<div class="col-4">
 					<img class="img-fluid" src="./assets/images/IMG_5670.JPG">
 				</div>
-				<div class="col-lg-4">
+				<div class="col-4">
 					<img class="img-fluid" src="./assets/images/IMG_5669.JPG">
 				</div>
 			</div>
+			
+			<!-- About Section -->
+			<div class="row">
+				<div class="col">
+					<h2 id="aboutHeader">Who We Are</h2>
+					<hr width=10%>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<img class="img-fluid" src="./assets/images/The Boss.JPG" alt="Boss Lady">
+				</div>
+				<div class="col-8" id="aboutP">
+					<p>founded in 2016 by a group of urban misfits and led by ultimate boss babe and hippie legend, Dorie J, BreakPoint Collective's mission is to bring a little bit of nature's natural wonder into everyday life. our art is inspired by the unpredictability of the sea and the irascible nature of hope.</p>
+					<p>we are BreakPoint Collective.</p>
+					<p>gather at the point.<p>
+					<a href="https://www.instagram.com/breakpointcollective/" id="instagram" target="blank_">follow us</a>
+				</div>	
+			</div>
+			
+			<!-- Shop Section -->
+			<div class="row">
+				<div class="col">
+					<h2 id="shopHeader">Shop BreakPoint Collective</h2>
+					<hr width=10%>
+				</div>
+			</div>
+
 		</div>
+	
+		<!--CDN links for TweenLite, CSSPlugin, and EasePack-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/plugins/CSSPlugin.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/easing/EasePack.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenLite.min.js"></script>
+		<!-- Link to Relative Javascript -->
+		<script type="text/javascript" src="./assets/javascript/index.js"></script>
 	</body>
 </html>
