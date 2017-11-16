@@ -27,7 +27,7 @@
 	color: #454545;
 	font-size: 2em;
 	letter-spacing: 20px;
-	padding-top: 125px;
+	padding-top: 170px;
 }
 p, a{
 	font-family: 'Wire One', sans-serif;
@@ -42,7 +42,7 @@ a:hover{
 #aboutP{
 	position: relative;
 	top: 50%;
-	transform: translateY(20%);
+	transform: translateY(5%);
 }
 .iLink, i{
 	color: #868686;
@@ -58,7 +58,7 @@ a:hover{
 	color: #454545;
 	font-size: 2em;
 	letter-spacing: 20px;
-	padding-top: 125px;
+	padding-top: 170px;
 }
 #shopP{
 	position: relative;
@@ -66,7 +66,7 @@ a:hover{
 	transform: translateY(10%);
 }
 #shopRow{
-	padding-bottom: 60px;
+	padding-bottom: 150px;
 }
 
 /*Footer*/
