@@ -23,11 +23,16 @@
 /*About Section*/
 #aboutHeader{
 	text-align: center;
-	font-family: 'Megrim', cursive;
 	color: #454545;
 	font-size: 2em;
-	letter-spacing: 20px;
 	padding-top: 170px;
+}
+#aboutLink{
+	font-family: 'Megrim', cursive;
+	letter-spacing: 20px;
+}
+.btn-link:hover{
+	text-decoration: none;
 }
 p, a{
 	font-family: 'Wire One', sans-serif;
@@ -54,11 +59,13 @@ a:hover{
 /*Shop Section*/
 #shopHeader{
 	text-align: center;
-	font-family: 'Megrim', cursive;
 	color: #454545;
 	font-size: 2em;
-	letter-spacing: 20px;
 	padding-top: 170px;
+}
+#shopLink{
+	font-family: 'Megrim', cursive;
+	letter-spacing: 20px;
 }
 #shopP{
 	position: relative;
