@@ -2,18 +2,21 @@
 // =================================================================
 // =================================================================
 
-// VARIABLES
-// +++++++++++++++++++++++++++
-var enterHr = document.getElementById("enterHr");
-
 // FUNCTIONS
 // +++++++++++++++++++++++++++
 
 // On document load and ready...
 $(document).ready(function(){
-	// ...shift hr to the right
-	TweenLite.to(enterHr, 2.5, {width:500});
-});
+	// set interval for blinking enter button
+	setInterval(blinker,1500);
+	// and run function for blinking
+	function blinker(){
+		$("#enterLink").fadeOut(600);
+		$("#enterLink").fadeIn(600);
+	}
+})
+
+
 
 
 // HOME.HTML
