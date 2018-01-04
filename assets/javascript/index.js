@@ -17,19 +17,3 @@ $(document).ready(function(){
 })
 
 
-
-
-// HOME.HTML
-// =================================================================
-// =================================================================
-
-// FUNCTIONS
-// +++++++++++++++++++++++++++
-
-// On document load and ready...
-$(document).ready(function(){
-	// ...add class to fadeIn hr
-	$("#homeHr").addClass("animated fadeIn delay2s9ms");
-});
-
-
