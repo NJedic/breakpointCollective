@@ -10,11 +10,6 @@ html {
   top: 50%;
   transform: translateY(-50%);
 }
-/*Main Mobile Hanger Photo*/
-#mainPhoto{
-	max-height: 400px;
-	max-width: 500px;
-}
 /*Button & Button Link*/
 #enterButton{
 	color: #454545;
