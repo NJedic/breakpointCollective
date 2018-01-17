@@ -71,6 +71,13 @@ a:hover{
 	font-size: 26px;
 	text-align: center;
 }
+#pLink{
+	color: gray;
+}
+#pLink:hover{
+	color: #d8c75e;
+	text-decoration: none;
+}
 
 /*Footer*/
 footer{
