@@ -66,13 +66,13 @@ a:hover{
 }
 .pContent{
 	font-family: 'Calligraffitti', cursive;	
-	color: gray;
+	color: #393939;
 	letter-spacing: 2px;
 	font-size: 26px;
 	text-align: center;
 }
 #pLink{
-	color: gray;
+	color: #393939;
 }
 #pLink:hover{
 	color: #d8c75e;
