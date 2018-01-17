@@ -14,12 +14,11 @@ body{
 #header{
 	font-family: 'Megrim', cursive;
 	color: white;
-	font-weight: bold; 
 	font-size: 4em;
 	letter-spacing: 30px;
 }
 #tagline{
-	font-family: 'Wire One', sans-serif;
+	font-family: 'Calligraffitti', cursive;
 	color: white;
 	letter-spacing: 4px;
 }
@@ -27,10 +26,10 @@ body{
 	max-height: 500px;
 }
 p{
-	font-family: 'Wire One', sans-serif;
+	font-family: 'Calligraffitti', cursive;	
 	color: white;
-	font-weight: bold;
 	letter-spacing: 4px;
+	/*text-shadow: 1px 1px gray;*/
 	font-size: 28px;
 	text-align: center;
 }
@@ -42,9 +41,9 @@ p{
 }
 .nav-link{
 	font-family: 'Megrim', cursive;
-	font-weight: bold; 
-	font-size: 2.5em;
+	font-size: 3em;
 	color: white;
+	letter-spacing: 5px;
 }
 a:hover{
 	color: #d8c75e;
