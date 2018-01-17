@@ -2,6 +2,10 @@ html {
   position: relative;
   min-height: 100%;
 }
+body{
+	background-image: url("../images/jumbotronImage.jpg");
+	background-size: cover;
+}
 /*Centering conent on the page*/
 .container-fluid {
   position: absolute;
@@ -10,22 +14,26 @@ html {
   top: 50%;
   transform: translateY(-50%);
 }
+/*Image*/
+#mainPhoto{
+	max-height: 400px;
+}
 /*Button & Button Link*/
 #enterButton{
-	color: #454545;
+	color: white;
 	max-height: 70px;
 	font-family: 'Megrim', cursive;
 	font-size: 3em;
 	text-decoration: none;
 }
 #enterLink{
-	color: #454545;
+	color: white;
 }
 #enterLink:hover{
-	color: #454545;
+	color: #d8c75e;
 	text-decoration: none;
 }
 /*hr*/
 #enterHr{
-	background-color: #BCAA99;
+	background-color: white;
 }

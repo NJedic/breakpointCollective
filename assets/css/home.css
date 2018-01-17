@@ -1,79 +1,53 @@
+body{
+	background-color: #E6E0D9;
+}
+
 /*Jumbotron*/
+#jumbotron{
+	position: relative;
+	background-image: url("../images/jumbotronImage.jpg");
+	background-size: cover;
+	min-height: 100vh;
+	padding-top: 25px;
+	margin-bottom: 0px;
+}
 #header{
 	font-family: 'Megrim', cursive;
-	color: #454545;
-	font-size: 3em;
+	color: white;
+	font-weight: bold; 
+	font-size: 4em;
 	letter-spacing: 30px;
 }
 #tagline{
 	font-family: 'Wire One', sans-serif;
-	color: #454545;
+	color: white;
 	letter-spacing: 4px;
 }
-.jumbotron{
-	background-color: white;
-	text-align: center;
-	margin-bottom: 0px;
-	padding-bottom: 70px;
+#bossLady{
+	max-height: 500px;
 }
-#homeHr, hr{
-	background-color: #BCAA99;
-}
-
-/*About Section*/
-#aboutHeader{
-	text-align: center;
-	color: #454545;
-	font-size: 2em;
-	padding-top: 170px;
-}
-#aboutLink{
-	font-family: 'Megrim', cursive;
-	letter-spacing: 20px;
-}
-.btn-link:hover{
-	text-decoration: none;
-}
-p, a{
+p{
 	font-family: 'Wire One', sans-serif;
-	color: #454545;
+	color: white;
+	font-weight: bold;
 	letter-spacing: 4px;
-	font-size: 30px;
+	font-size: 28px;
 	text-align: center;
+}
+#instagram{
+	color: #E6E0D9;
+}
+#instagram:hover{
+	color: #d8c75e;
+}
+.nav-link{
+	font-family: 'Megrim', cursive;
+	font-weight: bold; 
+	font-size: 2.5em;
+	color: white;
 }
 a:hover{
-	color: #BBBE64;
-}
-#aboutP{
-	position: relative;
-	top: 50%;
-	transform: translateY(5%);
-}
-.iLink, i{
-	color: #868686;
-}
-.iLink:hover{
-	color: #BBBE64;
-}
-
-/*Shop Section*/
-#shopHeader{
-	text-align: center;
-	color: #454545;
-	font-size: 2em;
-	padding-top: 170px;
-}
-#shopLink{
-	font-family: 'Megrim', cursive;
-	letter-spacing: 20px;
-}
-#shopP{
-	position: relative;
-	top: 50%;
-	transform: translateY(10%);
-}
-#shopRow{
-	padding-bottom: 150px;
+	color: #d8c75e;
 }
 
 /*Footer*/
