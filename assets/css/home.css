@@ -27,13 +27,13 @@ body{
 }
 p{
 	font-family: 'Calligraffitti', cursive;	
-	color: white;
+	color: #161718;
 	letter-spacing: 4px;
 	font-size: 28px;
 	text-align: center;
 }
 #instagram{
-	color: #E6E0D9;
+	color: #393939;
 }
 #instagram:hover{
 	color: #d8c75e;
@@ -41,7 +41,7 @@ p{
 .nav-link{
 	font-family: 'Megrim', cursive;
 	font-size: 3em;
-	color: white;
+	color: #393939;
 	letter-spacing: 5px;
 }
 a:hover{
