@@ -35,5 +35,6 @@ body{
 }
 /*hr*/
 #enterHr{
+	margin-top: 30px;
 	background-color: white;
 }
